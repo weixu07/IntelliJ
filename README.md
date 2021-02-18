@@ -5,7 +5,7 @@
 
 2. When choosing to enter current job details, a user will: 
   >a. Be shown a user interface to enter (if it is the first time) or edit all of the details of their current job, which consist of:
-  >>i. Title
+    >>i. Title
   >>ii. Company
   >>iii. Location (entered as city and state)
   >>iv. Cost of living in the location (expressed as an index )
