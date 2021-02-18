@@ -14,8 +14,14 @@
   >>viii. Retirement benefits (as percentage matched)
   >>ix. Leave time (vacation days and holiday and/or sick leave, as a single overall number of days)
 
-*To achieve this requirement, I designed the "EnterCurrentJob" which has an attribute "currentJob" as a type of "Job". The "Job" class contains the properties/attributes of job details. The "Job" has been saperated since it is common and can be used by different other class. I used compositon relationship to connect the "EnterCurrentJob" since it represent the "uses" relationship between them.   
+*To achieve this requirement, I designed the "EnterCurrentJob" which has an attribute "currentJob" as a type of "Job". The "Job" class contains the properties/attributes of job details. The "Job" has been saperated since it is common and can be used by different other class. I used compositon relationship to connect the "EnterCurrentJob" since it represent the "uses" relationship between them.*   
 
   >b. Be able to either save the job details or cancel and exit without saving, returning in both cases to the main menu.
 
-*To *
+*To achieve this requirement, I added two operations 'save' and 'cancel' in "EnterCurrentJob". They are going to either save the job details and return to main menu, or exit without saving and return to main menu.*
+
+
+3. When choosing to enter job offers, a user will:
+  >a. Be shown a user interface to enter all of the details of the offer, which are the same ones listed above for the current job.
+  >b. Be able to either save the job offer details or cancel.
+  >c. Be able to (1) enter another offer, (2) return to the main menu, or (3) compare the offer with the current job details (if present).
