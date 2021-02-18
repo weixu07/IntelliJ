@@ -1,9 +1,9 @@
-*1. When the app is started, the user is presented with the main menu, which allows the user to (1) enter or edit current job details, (2) enter job offers, (3) adjust the comparison settings, or (4) compare job offers (disabled if no job offers were entered yet1).
+1. When the app is started, the user is presented with the main menu, which allows the user to (1) enter or edit current job details, (2) enter job offers, (3) adjust the comparison settings, or (4) compare job offers (disabled if no job offers were entered yet1).
 
 *To realize this requirement, I designed the "MainMenu" class which has corresponding operations as "enterCurrentJob", "enterJobOffers", "assignComparisonSetting", "compareJobOffers". Each operation will start up the GUIs handling the corresponding event class as "EnterCurrentJob", "EnterJobOffers", "AssignComparisonSetting", "CompareJobOffers".*
 
 
-*2. When choosing to enter current job details, a user will: 
+2. When choosing to enter current job details, a user will: 
 a. Be shown a user interface to enter (if it is the first time) or edit all of the details of their current job, which consist of:
 i. Title
 ii. Company
