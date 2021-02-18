@@ -1,3 +1,7 @@
+
+### Design-Description
+
+
 1. When the app is started, the user is presented with the main menu, which allows the user to (1) enter or edit current job details, (2) enter job offers, (3) adjust the comparison settings, or (4) compare job offers (disabled if no job offers were entered yet1).
 
 *To realize this requirement, I designed the "MainMenu" class which has corresponding operations as "enterCurrentJob", "enterJobOffers", "assignComparisonSetting", "compareJobOffers". Each operation will start up the GUIs handling the corresponding event class as "EnterCurrentJob", "EnterJobOffers", "AssignComparisonSetting", "CompareJobOffers".*
@@ -81,8 +85,5 @@
 8. For simplicity, you may assume there is a single system running the app (no communication or saving between devices is necessary).
 
 *Since no communication, the data sets of other job offers are not avabliable through wifi network or threads. The saved doc files containing the data sets can act as database providing all other job details other than the user entered current job and job offers.*
-
-
-
 
 
