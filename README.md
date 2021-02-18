@@ -22,6 +22,6 @@
 
 
 3. When choosing to enter job offers, a user will:
-  >a. Be shown a user interface to enter all of the details of the offer, which are the same ones listed above for the current job.
-  >b. Be able to either save the job offer details or cancel.
-  >c. Be able to (1) enter another offer, (2) return to the main menu, or (3) compare the offer with the current job details (if present).
+  >a. Be shown a user interface to enter all of the details of the offer, which are the same ones listed above for the current job.<
+  >b. Be able to either save the job offer details or cancel.<
+  >c. Be able to (1) enter another offer, (2) return to the main menu, or (3) compare the offer with the current job details (if present).<
